@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for App component Create a snaphot if not available and compare 1`] = `
+<Fragment>
+  <div
+    className="jumbotron text-center"
+  >
+    <h1>
+      ToDo App Page
+    </h1>
+    <p>
+      Resize this responsive page to see the effect!
+    </p>
+  </div>
+  <div
+    className="container"
+  >
+    <TodoInput
+      dispatch={[MockFunction]}
+    />
+    <Memo(TodoList)
+      dispatch={[MockFunction]}
+      todos={Array []}
+    />
+  </div>
+</Fragment>
+`;
